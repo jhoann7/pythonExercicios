@@ -1,6 +1,6 @@
 val = float(input('Valor da casa: R$'))
 sal = float(input('Valor do seu salário: R$'))
-tempo = float(input('Em quantos anos você quer pagar: '))
+tempo = int(input('Em quantos anos você quer pagar: '))
 
 pres = val / (tempo * 12)
 
