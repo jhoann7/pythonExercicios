@@ -1,0 +1,1 @@
+print('\033[7;34mOlá mundo!\033[m').doubl
