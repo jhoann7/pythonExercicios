@@ -11,7 +11,7 @@ print('''[1] à vista no dinheiro
 opcao = int(input('Qual a opção desejada: '))
 
 if opcao == 1:
-    print('Sua compra é de R${:.2f} e vai custar R${:.2f} no final'.format(valor, valor - (valor / 100) * 15))
+    print('Sua compra é de R${:.2f} e vai custar R${:.2f} no final'.format(valor, valor - (valor / 100) * 10))
 elif opcao == 2:
     print('Sua compra é de R${:.2f} e vai custar R${:.2f} no final'.format(valor, valor - (valor / 100) * 5))
 elif opcao == 3:
