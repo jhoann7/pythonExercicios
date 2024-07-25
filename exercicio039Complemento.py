@@ -22,6 +22,5 @@ if s.upper() == 'M':
         print('Seu ano de alistamento será em {}'.format(alis))
 elif s.upper() == 'F':
     print('Você é mulher e não é obrigada a se alistar!')
-    
 else:
     print('Opcão inválida!')
